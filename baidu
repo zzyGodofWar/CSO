@@ -1,0 +1,71 @@
+<html>
+<head>
+	<link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon">
+	<title>百度一下，我不知道</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<div style="float:left;" >
+<font size="2">你好，<strong>zzy烈焰战神</strong></font>
+</div>
+
+<div align="right">
+<a href="https://zhidao.baidu.com"><font size="2" color=#000000>知道</font></a>
+<a href="https://tieba.baidu.com"><font size="2" color=#000000>贴吧</font></a>
+<hr>
+</div>
+
+<br /><br /><br />
+<div align="center">
+	<a href="tencent://message/?Site=baidu.com&uin=2609733429&Menu=yes"><img id="bd_logo" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_redBlue_32fe2c69.png" width="270" height="129"  title="点击一下，和你喝茶" /></a>
+	
+</div>
+<br />
+<div align="center">
+	<input id="wnt" type="text" onkeypress="CheckInfo()" style="width:40%;height:5%;font-size:16px" /><button type="button" onclick="Search()" style="width:7%;height:5.1%;cursor:hand;">百度一下</button>
+</div>
+
+<br />
+<div align="center">
+<form action="login" method="post">
+  <p>账号: <input type="text" name="account" /></p>
+  <p>密码: <input type="password" name="password" /></p>
+  <input type="submit" value="登录" />
+	</form>
+
+</div>
+<br /><br />
+<div align="center" >
+	<a style="text-decoration:none;" href="http://store.steampowered.com/"><font size="2" color=#000000>Stean 商店</font></a>&nbsp;&nbsp;
+	<a style="text-decoration:none;" href="https://www.bilibili.com/"><font size="2" color=#000000>哔哩哔哩 (゜-゜)つロ 干杯</font></a>
+</div>
+
+<script language ="javascript"> 
+
+document.getElementById("wnt").focus(); 
+// https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png
+function Search()
+{	
+	var need=document.getElementById("wnt");
+	if(need.value != "")
+	{
+	var add="https://www.baidu.com/s?wd="+need.value;
+	window.location.href=add;
+	}
+}
+
+function CheckInfo()
+{
+	if(event.which == 13)
+	{
+		Search();
+	}
+}
+
+
+
+
+</script>
+
+</body>
+</html>
