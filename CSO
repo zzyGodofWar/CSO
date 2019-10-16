@@ -16,7 +16,12 @@
 
 [server]119.29.82.79[server]
 [port]30002[port]
-[dl_link]https://www.lanzous.com/b977514[dl_link]
+
+[update]
+(root)b977514(root)
+(Data)b0z9s50h(Data)
+[update]
+
 [dl_pwd]zynb[dl_pwd]
 
 [announcements]账号注册方法：
