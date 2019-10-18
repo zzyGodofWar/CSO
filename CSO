@@ -18,7 +18,7 @@ ver=1.0
 id=3
 type=folder
 name=cstrike_na_en
-dlpath=root\Bin.rar
+dlpath=Data\cstrike_na_en.rar
 unpath=root\Data\
 ver=1.0
 
